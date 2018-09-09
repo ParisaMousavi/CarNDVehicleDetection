@@ -92,14 +92,16 @@ But I have decided to use `YCrCb` color space.
 
 > The HOG features extracted from the training data have been used to train a classifier, could be SVM, Decision Tree or other. Features should be scaled to zero mean and unit variance before training the classifier.
 
+In the following figure we have the flowchart of my training and test Linear SVC Classifier mechanism.
+
 
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzU1MTMzNSwtNjQ2MjYzMzQzLDQ5Nz
-U2Njk4Nyw4MDU0MjUzODgsOTY3MTUwMTgxLDYzOTM3ODIzLC0z
-Nzc3MDI2OCwyMTM4MDEwNTk5LDYzNDQyODMyMywtMTY5MjYyNz
-U3MSwtMTE4MjIyMTc1OSwtMTIxNzEwNjA2MCwtODI3MDIxNDAw
-LDEyMTg5Njk5MTgsLTgzMzU3NzU2NywtMzk4OTcyMzMxXX0=
+eyJoaXN0b3J5IjpbLTE4Nzk0Nzc2NTQsLTY0NjI2MzM0Myw0OT
+c1NjY5ODcsODA1NDI1Mzg4LDk2NzE1MDE4MSw2MzkzNzgyMywt
+Mzc3NzAyNjgsMjEzODAxMDU5OSw2MzQ0MjgzMjMsLTE2OTI2Mj
+c1NzEsLTExODIyMjE3NTksLTEyMTcxMDYwNjAsLTgyNzAyMTQw
+MCwxMjE4OTY5OTE4LC04MzM1Nzc1NjcsLTM5ODk3MjMzMV19
 -->
