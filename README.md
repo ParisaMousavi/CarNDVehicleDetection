@@ -21,12 +21,14 @@ In this resubmission I have transferred the following functions to an .py file t
 - get_hog_features
 
 The name of python file is `features.py` and it is imported in Jupyter notebook.
+**Histogram of Oriented Gradient**
 
-import features
+<![endif]--> I have a function for extracting the Histogram of Oriented Gradient with following header which has been called under “4. Extracting the Histogram of Oriented Gradient (scikit-image HOG)” cell.
 
 [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTcxMDYwNjAsLTgyNzAyMTQwMCwxMj
-E4OTY5OTE4LC04MzM1Nzc1NjcsLTM5ODk3MjMzMV19
+eyJoaXN0b3J5IjpbMTY5MDMzNDc0NCwtMTIxNzEwNjA2MCwtOD
+I3MDIxNDAwLDEyMTg5Njk5MTgsLTgzMzU3NzU2NywtMzk4OTcy
+MzMxXX0=
 -->
