@@ -65,11 +65,14 @@ I have tested the “Extracting the Histogram of Oriented Gradient (scikit-image
 *orient=9, pix_per_cell=2, cell_per_block=2*
 
 For example, this figure at the left side is a sample of pixel per cell 2 and cell per block 2.
+The pattern of vehicle is clearer than the previous one, but the performance is worse than pix_per_cell=8, cell_per_block=2
+Therefore, I have developed my project with orient = 9, pix_per_cell=8 and cell_per_block=2 which are defined and assigned under “Global values” section in Jupyter Notebook.
+
 
 [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjA3Mzg3OCwtMzc3NzAyNjgsMjEzOD
+eyJoaXN0b3J5IjpbMTQzNzU2NDM1NSwtMzc3NzAyNjgsMjEzOD
 AxMDU5OSw2MzQ0MjgzMjMsLTE2OTI2Mjc1NzEsLTExODIyMjE3
 NTksLTEyMTcxMDYwNjAsLTgyNzAyMTQwMCwxMjE4OTY5OTE4LC
 04MzM1Nzc1NjcsLTM5ODk3MjMzMV19
