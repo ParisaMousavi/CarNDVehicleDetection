@@ -72,13 +72,13 @@ I have also tested all the color spaces which have been defined in project as sh
 
 ![enter image description here](https://github.com/ParisaMousavi/CarNDVehicleDetection/blob/master/pics/figure3.png)|![enter image description here](https://github.com/ParisaMousavi/CarNDVehicleDetection/blob/master/pics/figure4.png)
 ------------|------------
-a|a
+Figure 3: RGB color space|Figure 4: HSV
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE1NTQ0ODAsOTY3MTUwMTgxLDYzOT
-M3ODIzLC0zNzc3MDI2OCwyMTM4MDEwNTk5LDYzNDQyODMyMywt
-MTY5MjYyNzU3MSwtMTE4MjIyMTc1OSwtMTIxNzEwNjA2MCwtOD
-I3MDIxNDAwLDEyMTg5Njk5MTgsLTgzMzU3NzU2NywtMzk4OTcy
-MzMxXX0=
+eyJoaXN0b3J5IjpbODA1NDI1Mzg4LDk2NzE1MDE4MSw2MzkzNz
+gyMywtMzc3NzAyNjgsMjEzODAxMDU5OSw2MzQ0MjgzMjMsLTE2
+OTI2Mjc1NzEsLTExODIyMjE3NTksLTEyMTcxMDYwNjAsLTgyNz
+AyMTQwMCwxMjE4OTY5OTE4LC04MzM1Nzc1NjcsLTM5ODk3MjMz
+MV19
 -->
