@@ -98,11 +98,24 @@ FLOCHART PLACE HOLDER
 
 The training code is started from cell “Global values”, where I have defined the variables and values for training the model as in following.
 
+```python
+color_space = 'YCrCb'
+orient = 9
+pix_per_cell = 8
+cell_per_block = 2
+hog_channel = "ALL" 
+spatial_size = (16, 16) 
+hist_bins = 128   
+spatial_feat = True # Spatial features on or off
+hist_feat = True # Histogram features on or off
+hog_feat = True # HOG features on or off
+hist_range = (0, 256)
+```
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTg4MzMzNiwtNjQ2MjYzMzQzLDQ5Nz
+eyJoaXN0b3J5IjpbLTI5MjA4MjYyMiwtNjQ2MjYzMzQzLDQ5Nz
 U2Njk4Nyw4MDU0MjUzODgsOTY3MTUwMTgxLDYzOTM3ODIzLC0z
 Nzc3MDI2OCwyMTM4MDEwNTk5LDYzNDQyODMyMywtMTY5MjYyNz
 U3MSwtMTE4MjIyMTc1OSwtMTIxNzEwNjA2MCwtODI3MDIxNDAw
