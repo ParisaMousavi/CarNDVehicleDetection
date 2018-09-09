@@ -33,11 +33,22 @@ The main function which is used to extract the image HOG is hog function as in t
 
 - Under “Extract Dataset's features” cell: via calling extract_features function from training materials. 
 
+<![endif]-->
+
+car_features = extract_features(cars, cspace = color_space,
+spatial_size = spatial_size,
+hist_bins = hist_bins,
+hist_range = hist_range)
+
+notcar_features = extract_features(notcars, cspace = color_space,
+spatial_size = spatial_size,
+hist_bins = hist_bins,
+hist_range = hist_range)
 
 [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTAxNjA0OCwtMTY5MjYyNzU3MSwtMT
+eyJoaXN0b3J5IjpbLTc2MzIyMzQzMywtMTY5MjYyNzU3MSwtMT
 E4MjIyMTc1OSwtMTIxNzEwNjA2MCwtODI3MDIxNDAwLDEyMTg5
 Njk5MTgsLTgzMzU3NzU2NywtMzk4OTcyMzMxXX0=
 -->
