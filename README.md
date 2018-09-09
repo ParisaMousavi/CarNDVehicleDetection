@@ -70,14 +70,15 @@ Therefore, I have developed my project with orient = 9, pix_per_cell=8 and cell_
 ### About color space variable
 I have also tested all the color spaces which have been defined in project as shown in following figure.
 
-a|a
+![enter image description here](https://github.com/ParisaMousavi/CarNDVehicleDetection/blob/master/pics/figure3.png)|
 ------------|------------
 a|a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3MTUwMTgxLDYzOTM3ODIzLC0zNzc3MD
-I2OCwyMTM4MDEwNTk5LDYzNDQyODMyMywtMTY5MjYyNzU3MSwt
-MTE4MjIyMTc1OSwtMTIxNzEwNjA2MCwtODI3MDIxNDAwLDEyMT
-g5Njk5MTgsLTgzMzU3NzU2NywtMzk4OTcyMzMxXX0=
+eyJoaXN0b3J5IjpbLTY0MDM2MTkyOCw5NjcxNTAxODEsNjM5Mz
+c4MjMsLTM3NzcwMjY4LDIxMzgwMTA1OTksNjM0NDI4MzIzLC0x
+NjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MTA2MDYwLC04Mj
+cwMjE0MDAsMTIxODk2OTkxOCwtODMzNTc3NTY3LC0zOTg5NzIz
+MzFdfQ==
 -->
