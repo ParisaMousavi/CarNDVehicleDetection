@@ -11,9 +11,12 @@ In this project, your goal is to write a software pipeline to detect vehicles in
 
 > Explanation given for methods used to extract HOG features, including which color space was chosen, which HOG parameters (orientations, pixels_per_cell, cells_per_block), and why.
 
+**Resubmission 1**
+
+
 [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTkyMzk3LC04MzM1Nzc1NjcsLTM5OD
-k3MjMzMV19
+eyJoaXN0b3J5IjpbMjEzNDgxNTg0NywtODMzNTc3NTY3LC0zOT
+g5NzIzMzFdfQ==
 -->
