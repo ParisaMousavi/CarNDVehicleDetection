@@ -90,16 +90,16 @@ But I have decided to use `YCrCb` color space.
 
 ## Describe how (and identify where in your code) you trained a classifier using your selected HOG features (and color features if you used them).
 
-
+> The HOG features extracted from the training data have been used to train a classifier, could be SVM, Decision Tree or other. Features should be scaled to zero mean and unit variance before training the classifier.
 
 
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjI2MzM0Myw0OTc1NjY5ODcsODA1ND
-I1Mzg4LDk2NzE1MDE4MSw2MzkzNzgyMywtMzc3NzAyNjgsMjEz
-ODAxMDU5OSw2MzQ0MjgzMjMsLTE2OTI2Mjc1NzEsLTExODIyMj
-E3NTksLTEyMTcxMDYwNjAsLTgyNzAyMTQwMCwxMjE4OTY5OTE4
-LC04MzM1Nzc1NjcsLTM5ODk3MjMzMV19
+eyJoaXN0b3J5IjpbLTc1NzU1MTMzNSwtNjQ2MjYzMzQzLDQ5Nz
+U2Njk4Nyw4MDU0MjUzODgsOTY3MTUwMTgxLDYzOTM3ODIzLC0z
+Nzc3MDI2OCwyMTM4MDEwNTk5LDYzNDQyODMyMywtMTY5MjYyNz
+U3MSwtMTE4MjIyMTc1OSwtMTIxNzEwNjA2MCwtODI3MDIxNDAw
+LDEyMTg5Njk5MTgsLTgzMzU3NzU2NywtMzk4OTcyMzMxXX0=
 -->
