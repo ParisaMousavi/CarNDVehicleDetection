@@ -124,14 +124,16 @@ images = glob.glob('./all/non-vehicles/**/*.png',recursive=True)
 for image in images:
     notcars.append(image)
 ```
+After preparing the vehicle and non-vehicle lists, I extract the feature/s of the car and non-car images with extract_features function in cell “Extract Dataset's features” and create an array stack of the extracted features to pass to `StandardScaler().fit()` function as developed in “Train Linear SVC(support vector classifier) Classifier” cell.
+`StandardScaler().fit()` fits the scale per-column and I apply the calculated scaler to the created array stack as shown below.
 
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3NzM5MDQ0LC02NDYyNjMzNDMsNDk3NT
-Y2OTg3LDgwNTQyNTM4OCw5NjcxNTAxODEsNjM5Mzc4MjMsLTM3
-NzcwMjY4LDIxMzgwMTA1OTksNjM0NDI4MzIzLC0xNjkyNjI3NT
-cxLC0xMTgyMjIxNzU5LC0xMjE3MTA2MDYwLC04MjcwMjE0MDAs
-MTIxODk2OTkxOCwtODMzNTc3NTY3LC0zOTg5NzIzMzFdfQ==
+eyJoaXN0b3J5IjpbLTEyMzEzNzg1MTgsLTY0NjI2MzM0Myw0OT
+c1NjY5ODcsODA1NDI1Mzg4LDk2NzE1MDE4MSw2MzkzNzgyMywt
+Mzc3NzAyNjgsMjEzODAxMDU5OSw2MzQ0MjgzMjMsLTE2OTI2Mj
+c1NzEsLTExODIyMjE3NTksLTEyMTcxMDYwNjAsLTgyNzAyMTQw
+MCwxMjE4OTY5OTE4LC04MzM1Nzc1NjcsLTM5ODk3MjMzMV19
 -->
