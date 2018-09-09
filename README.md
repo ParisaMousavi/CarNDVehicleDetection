@@ -7,6 +7,8 @@ In this project, your goal is to write a software pipeline to detect vehicles in
 # Histogram of Oriented Gradients (HOG)
 
 
+## Explain how (and identify where in your code) you extracted HOG features from the training images. Explain how you settled on your final choice of HOG parameters.
+
 A great writeup should include the rubric points as well as your description of how you addressed each point.  You should include a detailed description of the code used in each step (with line-number references and code snippets where necessary), and links to other supporting documents or external references.  You should include images in your writeup to demonstrate how your code works with examples.  
 
 All that said, please be concise!  We're not looking for you to write a book here, just a brief description of how you passed each rubric point, and references to the relevant code :). 
@@ -37,5 +39,6 @@ Some example images for testing your pipeline on single frames are located in th
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzU3NzU2NywtMzk4OTcyMzMxXX0=
+eyJoaXN0b3J5IjpbMjkxMDczNDQ4LC04MzM1Nzc1NjcsLTM5OD
+k3MjMzMV19
 -->
