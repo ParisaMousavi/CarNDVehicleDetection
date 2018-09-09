@@ -13,10 +13,20 @@ In this project, your goal is to write a software pipeline to detect vehicles in
 
 **Resubmission 1**
 
+In this resubmission I have transferred the following functions to an .py file to have shorter and readable code in jupyter notebook.
+
+- bin_spatialI
+- convert_color
+- color_hist
+- get_hog_features
+
+The name of python file is features.py and it is imported in Jupyter notebook.
+
+import features
 
 [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDgxNTg0NywtODMzNTc3NTY3LC0zOT
+eyJoaXN0b3J5IjpbMTIxODk2OTkxOCwtODMzNTc3NTY3LC0zOT
 g5NzIzMzFdfQ==
 -->
