@@ -69,11 +69,11 @@ The pattern of vehicle is clearer than the previous one, but the performance is 
 Therefore, I have developed my project with orient = 9, pix_per_cell=8 and cell_per_block=2 which are defined and assigned under “Global values” section in Jupyter Notebook.
 
 
-[this free course](https://www.udacity.com/course/writing-readmes--ud777).
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5Mzc4MjMsLTM3NzcwMjY4LDIxMzgwMT
-A1OTksNjM0NDI4MzIzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5
-LC0xMjE3MTA2MDYwLC04MjcwMjE0MDAsMTIxODk2OTkxOCwtOD
-MzNTc3NTY3LC0zOTg5NzIzMzFdfQ==
+eyJoaXN0b3J5IjpbLTg3MDA0NzM3Miw2MzkzNzgyMywtMzc3Nz
+AyNjgsMjEzODAxMDU5OSw2MzQ0MjgzMjMsLTE2OTI2Mjc1NzEs
+LTExODIyMjE3NTksLTEyMTcxMDYwNjAsLTgyNzAyMTQwMCwxMj
+E4OTY5OTE4LC04MzM1Nzc1NjcsLTM5ODk3MjMzMV19
 -->
