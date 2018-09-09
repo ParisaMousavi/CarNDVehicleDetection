@@ -44,15 +44,17 @@ spatial_size = spatial_size,
 hist_bins = hist_bins,
 hist_range = hist_range)
 ```
-- Under “Function for processing each frame” cell: via calling find_cars function.
+
+- Under “Function for processing each frame” cell: via calling  `find_cars` function.
 ```python
 predicated_windows = find_cars(image, ystart, ystop, scale, svc, X_scaler, orient, pix_per_cell, cell_per_block, spatial_size, hist_bins)
 ```
 
+
 [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTE0NzMxLC0xNjkyNjI3NTcxLC0xMT
-gyMjIxNzU5LC0xMjE3MTA2MDYwLC04MjcwMjE0MDAsMTIxODk2
-OTkxOCwtODMzNTc3NTY3LC0zOTg5NzIzMzFdfQ==
+eyJoaXN0b3J5IjpbMjEyOTI5MDE2OSwtMTY5MjYyNzU3MSwtMT
+E4MjIyMTc1OSwtMTIxNzEwNjA2MCwtODI3MDIxNDAwLDEyMTg5
+Njk5MTgsLTgzMzU3NzU2NywtMzk4OTcyMzMxXX0=
 -->
