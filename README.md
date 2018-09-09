@@ -84,13 +84,13 @@ Figure 5: LUV | Figure 6: HLS
 ------------|------------
 Figure 7: YUV | Figure 8: YCrCb
 
-
+But I have decided to use `YCrCb` color space.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzgzNzA0MSw4MDU0MjUzODgsOTY3MT
-UwMTgxLDYzOTM3ODIzLC0zNzc3MDI2OCwyMTM4MDEwNTk5LDYz
-NDQyODMyMywtMTY5MjYyNzU3MSwtMTE4MjIyMTc1OSwtMTIxNz
-EwNjA2MCwtODI3MDIxNDAwLDEyMTg5Njk5MTgsLTgzMzU3NzU2
-NywtMzk4OTcyMzMxXX0=
+eyJoaXN0b3J5IjpbNDk3NTY2OTg3LDgwNTQyNTM4OCw5NjcxNT
+AxODEsNjM5Mzc4MjMsLTM3NzcwMjY4LDIxMzgwMTA1OTksNjM0
+NDI4MzIzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MT
+A2MDYwLC04MjcwMjE0MDAsMTIxODk2OTkxOCwtODMzNTc3NTY3
+LC0zOTg5NzIzMzFdfQ==
 -->
