@@ -70,11 +70,14 @@ Therefore, I have developed my project with orient = 9, pix_per_cell=8 and cell_
 ### About color space variable
 I have also tested all the color spaces which have been defined in project as shown in following figure.
 
+a|a
+------------|------------
+a|a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjY0MjQ2MSw2MzkzNzgyMywtMzc3Nz
-AyNjgsMjEzODAxMDU5OSw2MzQ0MjgzMjMsLTE2OTI2Mjc1NzEs
-LTExODIyMjE3NTksLTEyMTcxMDYwNjAsLTgyNzAyMTQwMCwxMj
-E4OTY5OTE4LC04MzM1Nzc1NjcsLTM5ODk3MjMzMV19
+eyJoaXN0b3J5IjpbOTY3MTUwMTgxLDYzOTM3ODIzLC0zNzc3MD
+I2OCwyMTM4MDEwNTk5LDYzNDQyODMyMywtMTY5MjYyNzU3MSwt
+MTE4MjIyMTc1OSwtMTIxNzEwNjA2MCwtODI3MDIxNDAwLDEyMT
+g5Njk5MTgsLTgzMzU3NzU2NywtMzk4OTcyMzMxXX0=
 -->
