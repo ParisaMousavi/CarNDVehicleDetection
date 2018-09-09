@@ -201,14 +201,21 @@ cells_per_step =  2  _#Instead of overlap, define how many cells to step
 
 I have trained the code with different values. In case of better value, I didn’t have efficient running time. Therefore, I decided to have 2 cells per step overlapping because the result was satisfactory, and the result wasn’t long.
 
+**sliding**
+
+The sliding window mechanism, which I have used is from training materials.
+
+**Scale**
+
+In “Read model” cell I have considered 7 different scales. Because vehicles in different distances have different scales.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTcwNjIzMjUsMTQ3NDI1MDE4MywtNj
-Q2MjYzMzQzLDQ5NzU2Njk4Nyw4MDU0MjUzODgsOTY3MTUwMTgx
-LDYzOTM3ODIzLC0zNzc3MDI2OCwyMTM4MDEwNTk5LDYzNDQyOD
-MyMywtMTY5MjYyNzU3MSwtMTE4MjIyMTc1OSwtMTIxNzEwNjA2
-MCwtODI3MDIxNDAwLDEyMTg5Njk5MTgsLTgzMzU3NzU2NywtMz
-k4OTcyMzMxXX0=
+eyJoaXN0b3J5IjpbMTM0NjI2NzczNiwxNDc0MjUwMTgzLC02ND
+YyNjMzNDMsNDk3NTY2OTg3LDgwNTQyNTM4OCw5NjcxNTAxODEs
+NjM5Mzc4MjMsLTM3NzcwMjY4LDIxMzgwMTA1OTksNjM0NDI4Mz
+IzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MTA2MDYw
+LC04MjcwMjE0MDAsMTIxODk2OTkxOCwtODMzNTc3NTY3LC0zOT
+g5NzIzMzFdfQ==
 -->
