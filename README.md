@@ -80,12 +80,15 @@ Figure 3: RGB color space | Figure 4: HSV
 Figure 5: LUV | Figure 6: HLS
 
 
+![enter image description here](https://github.com/ParisaMousavi/CarNDVehicleDetection/blob/master/pics/figure5.png)|![enter image description here](https://github.com/ParisaMousavi/CarNDVehicleDetection/blob/master/pics/figure6.png)
+------------|------------
+Figure 5: LUV | Figure 6: HLS
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDY0NjI0Niw4MDU0MjUzODgsOTY3MT
-UwMTgxLDYzOTM3ODIzLC0zNzc3MDI2OCwyMTM4MDEwNTk5LDYz
-NDQyODMyMywtMTY5MjYyNzU3MSwtMTE4MjIyMTc1OSwtMTIxNz
-EwNjA2MCwtODI3MDIxNDAwLDEyMTg5Njk5MTgsLTgzMzU3NzU2
-NywtMzk4OTcyMzMxXX0=
+eyJoaXN0b3J5IjpbOTg0MTU5NTQwLDgwNTQyNTM4OCw5NjcxNT
+AxODEsNjM5Mzc4MjMsLTM3NzcwMjY4LDIxMzgwMTA1OTksNjM0
+NDI4MzIzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MT
+A2MDYwLC04MjcwMjE0MDAsMTIxODk2OTkxOCwtODMzNTc3NTY3
+LC0zOTg5NzIzMzFdfQ==
 -->
