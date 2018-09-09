@@ -189,12 +189,25 @@ And in “Read model” cell there is a logic for reading/reloading the saved va
 
 > A sliding window approach has been implemented, where overlapping tiles in each test image are classified as vehicle or non-vehicle. Some justification has been given for the particular implementation chosen.
 
+The sliding, scaling and overlapping are done in `find_cars` function in “Using LinearSVC Classifier to detect vehicles” cell. I’ll explain about each one in the following.
+
+**Overlapping**
+
+As it has been mentioned in training materials instead of the overlapping we can use the following code line.
+
+```python
+cells_per_step =  2  _#Instead of overlap, define how many cells to step
+```
+
+I have trained the code with different values. In case of better value, I didn’t have efficient running time. Therefore, I decided to have 2 cells per step overlapping because the result was satisfactory, and the result wasn’t long.
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODgwOTI4NywxNDc0MjUwMTgzLC02ND
-YyNjMzNDMsNDk3NTY2OTg3LDgwNTQyNTM4OCw5NjcxNTAxODEs
-NjM5Mzc4MjMsLTM3NzcwMjY4LDIxMzgwMTA1OTksNjM0NDI4Mz
-IzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MTA2MDYw
-LC04MjcwMjE0MDAsMTIxODk2OTkxOCwtODMzNTc3NTY3LC0zOT
-g5NzIzMzFdfQ==
+eyJoaXN0b3J5IjpbLTExMjIyOTk1NTUsMTQ3NDI1MDE4MywtNj
+Q2MjYzMzQzLDQ5NzU2Njk4Nyw4MDU0MjUzODgsOTY3MTUwMTgx
+LDYzOTM3ODIzLC0zNzc3MDI2OCwyMTM4MDEwNTk5LDYzNDQyOD
+MyMywtMTY5MjYyNzU3MSwtMTE4MjIyMTc1OSwtMTIxNzEwNjA2
+MCwtODI3MDIxNDAwLDEyMTg5Njk5MTgsLTgzMzU3NzU2NywtMz
+k4OTcyMzMxXX0=
 -->
