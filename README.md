@@ -51,12 +51,14 @@ predicated_windows = find_cars(image, ystart, ystop, scale, svc, X_scaler, orien
 ```
 
 As we can see in the two previous code snippets we have variables which determine which feature must be considered for training and for vehicle finding as well. These variables have been defined under “Global values” cell.
+Variable name | Value | 
+
 
 [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzM1NDU0Nyw2MzQ0MjgzMjMsLTE2OT
-I2Mjc1NzEsLTExODIyMjE3NTksLTEyMTcxMDYwNjAsLTgyNzAy
-MTQwMCwxMjE4OTY5OTE4LC04MzM1Nzc1NjcsLTM5ODk3MjMzMV
-19
+eyJoaXN0b3J5IjpbLTEwODIwODAyODEsNjM0NDI4MzIzLC0xNj
+kyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MTA2MDYwLC04Mjcw
+MjE0MDAsMTIxODk2OTkxOCwtODMzNTc3NTY3LC0zOTg5NzIzMz
+FdfQ==
 -->
