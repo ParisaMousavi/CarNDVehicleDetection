@@ -144,11 +144,19 @@ After transforming the data, they must be split into two Train and Test dataset 
 rand_state = np.random.randint(0, 100)
 X_train, X_test, y_train, y_test = train_test_split( scaled_X, y, test_size=0.2, random_state=rand_state)
 ```
+As next step the model is trained and as I have explained in the yellow box. The optimization in this step is the `C` parameter of the `LinearSVC` function.
+
+**Resubmission 1**
+
+Another point that I have considered in this resubmission is the fine tuning of the C parameter of the `LinearSVC` classifiert as following:
+`svc = LinearSVC(C=0.0005)`.
+
+
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjAwNjk4NSwtNjQ2MjYzMzQzLDQ5Nz
+eyJoaXN0b3J5IjpbMTQ3NDI1MDE4MywtNjQ2MjYzMzQzLDQ5Nz
 U2Njk4Nyw4MDU0MjUzODgsOTY3MTUwMTgxLDYzOTM3ODIzLC0z
 Nzc3MDI2OCwyMTM4MDEwNTk5LDYzNDQyODMyMywtMTY5MjYyNz
 U3MSwtMTE4MjIyMTc1OSwtMTIxNzEwNjA2MCwtODI3MDIxNDAw
