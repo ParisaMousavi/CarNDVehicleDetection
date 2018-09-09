@@ -138,11 +138,17 @@ After preparing the vehicle and non-vehicle lists, I extract the feature/s of th
     scaled_X = X_scaler.transform(X)
    ```
 
+After transforming the data, they must be split into two Train and Test dataset and I have developed a random logic to calculate a random percentage for splitting the dataset as shown in the following code snippet.
+
+```python
+rand_state = np.random.randint(0, 100)
+X_train, X_test, y_train, y_test = train_test_split( scaled_X, y, test_size=0.2, random_state=rand_state)
+```
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDkyMzMzNywtNjQ2MjYzMzQzLDQ5Nz
+eyJoaXN0b3J5IjpbMTAwNjAwNjk4NSwtNjQ2MjYzMzQzLDQ5Nz
 U2Njk4Nyw4MDU0MjUzODgsOTY3MTUwMTgxLDYzOTM3ODIzLC0z
 Nzc3MDI2OCwyMTM4MDEwNTk5LDYzNDQyODMyMywtMTY5MjYyNz
 U3MSwtMTE4MjIyMTc1OSwtMTIxNzEwNjA2MCwtODI3MDIxNDAw
