@@ -151,14 +151,46 @@ As next step the model is trained and as I have explained in the yellow box. The
 Another point that I have considered in this resubmission is the fine tuning of the C parameter of the `LinearSVC` classifiert as following:
 `svc = LinearSVC(C=0.0005)`.
 
+```python
+svc = LinearSVC(C=0.0005)
+svc.fit(X_train, y_train)
+```
+
+Although it wasn’t requested in the project to save the model but I have developed a cell in Jupyter notebook to save the mode as I have explained in the bellow yellow box.
+
+**Resubmission 1**
+
+Another new logic that I have developed in code is saving the variables and model because it was not time efficient for me to run the whole code each time that I wanted to develop the steps after training the mode like developing find_cars function. This logic is developed in “Save model” cell.
+
+```python
+obj = {
+"svc": svc,
+"scaler": X_scaler,
+"orient" : orient,
+"pix_per_cell": pix_per_cell,
+"cell_per_block": cell_per_block,
+"spatial_size": spatial_size,
+"hist_bins": hist_bins,
+"color_space": color_space,
+"hog_channel": hog_channel,
+"spatial_feat": spatial_feat,
+"hist_feat": hist_feat,
+"hog_feat": hog_feat,
+"hist_range":hist_range
+}
+```
 
 
+pickle.dump(obj, open('svc_pickle.p', 'wb'))
+
+And in “Read model” cell there is a logic for reading/reloading the saved variables and model.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDI1MDE4MywtNjQ2MjYzMzQzLDQ5Nz
-U2Njk4Nyw4MDU0MjUzODgsOTY3MTUwMTgxLDYzOTM3ODIzLC0z
-Nzc3MDI2OCwyMTM4MDEwNTk5LDYzNDQyODMyMywtMTY5MjYyNz
-U3MSwtMTE4MjIyMTc1OSwtMTIxNzEwNjA2MCwtODI3MDIxNDAw
-LDEyMTg5Njk5MTgsLTgzMzU3NzU2NywtMzk4OTcyMzMxXX0=
+eyJoaXN0b3J5IjpbLTk1NzA3Nzg0OCwxNDc0MjUwMTgzLC02ND
+YyNjMzNDMsNDk3NTY2OTg3LDgwNTQyNTM4OCw5NjcxNTAxODEs
+NjM5Mzc4MjMsLTM3NzcwMjY4LDIxMzgwMTA1OTksNjM0NDI4Mz
+IzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MTA2MDYw
+LC04MjcwMjE0MDAsMTIxODk2OTkxOCwtODMzNTc3NTY3LC0zOT
+g5NzIzMzFdfQ==
 -->
