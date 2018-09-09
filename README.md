@@ -183,11 +183,15 @@ pickle.dump(obj, open('svc_pickle.p', 'wb'))
 
 And in “Read model” cell there is a logic for reading/reloading the saved variables and model.
 
+# Sliding Window Search
 
+## Describe how (and identify where in your code) you implemented a sliding window search. How did you decide what scales to search and how much to overlap windows?
+
+> A sliding window approach has been implemented, where overlapping tiles in each test image are classified as vehicle or non-vehicle. Some justification has been given for the particular implementation chosen.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzM3NDYxMCwxNDc0MjUwMTgzLC02ND
+eyJoaXN0b3J5IjpbMTgzODgwOTI4NywxNDc0MjUwMTgzLC02ND
 YyNjMzNDMsNDk3NTY2OTg3LDgwNTQyNTM4OCw5NjcxNTAxODEs
 NjM5Mzc4MjMsLTM3NzcwMjY4LDIxMzgwMTA1OTksNjM0NDI4Mz
 IzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MTA2MDYw
