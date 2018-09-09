@@ -58,12 +58,14 @@ spatial_feat | True or False | True means spatial feature is considered in featu
 hist_feat | True or False | True means Histogram of Color is considered in feature of image for training and vehicle detection. False means this feature must not be considered in both parts.
 hog_feat | True or False | True means Histogram of Oriented Gradient is considered in feature of image for training and vehicle detection. False means this feature must not be considered in both parts.
 
+### About orient, pix_per_cell, cell_per_block variables
+I have tested the “Extracting the Histogram of Oriented Gradient (scikit-image HOG)” code snippet not only for 8 pixels per cell but also for 4 and 2 pixels per cell and all of them with 2 cells per block.
 
 [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODAxMDU5OSw2MzQ0MjgzMjMsLTE2OT
-I2Mjc1NzEsLTExODIyMjE3NTksLTEyMTcxMDYwNjAsLTgyNzAy
-MTQwMCwxMjE4OTY5OTE4LC04MzM1Nzc1NjcsLTM5ODk3MjMzMV
-19
+eyJoaXN0b3J5IjpbNzc4MTcxODk0LDIxMzgwMTA1OTksNjM0ND
+I4MzIzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MTA2
+MDYwLC04MjcwMjE0MDAsMTIxODk2OTkxOCwtODMzNTc3NTY3LC
+0zOTg5NzIzMzFdfQ==
 -->
