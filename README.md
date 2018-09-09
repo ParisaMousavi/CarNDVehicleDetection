@@ -29,11 +29,13 @@ I have a function for extracting the Histogram of Oriented Gradient with the fol
 The next figure is the visualization of the output of the `get_hog_features` function.
 ![Vidualization of the get_hog_features function](https://github.com/ParisaMousavi/CarNDVehicleDetection/blob/master/pics/figure1.png)
 
+The main function which is used to extract the image HOG is hog function as in training codes. The `get_hog_feature` function has been used in two different part of this project.
+
 
 [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTI2Mjc1NzEsLTExODIyMjE3NTksLT
-EyMTcxMDYwNjAsLTgyNzAyMTQwMCwxMjE4OTY5OTE4LC04MzM1
-Nzc1NjcsLTM5ODk3MjMzMV19
+eyJoaXN0b3J5IjpbOTk1Nzc1MzA5LC0xNjkyNjI3NTcxLC0xMT
+gyMjIxNzU5LC0xMjE3MTA2MDYwLC04MjcwMjE0MDAsMTIxODk2
+OTkxOCwtODMzNTc3NTY3LC0zOTg5NzIzMzFdfQ==
 -->
