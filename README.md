@@ -74,11 +74,18 @@ I have also tested all the color spaces which have been defined in project as sh
 ------------|------------
 Figure 3: RGB color space|Figure 4: HSV
 
+
+![enter image description here](https://github.com/ParisaMousavi/CarNDVehicleDetection/blob/master/pics/figure5.png)|![enter image description here](https://github.com/ParisaMousavi/CarNDVehicleDetection/blob/master/pics/figure6.png)
+------------|------------
+Figure 5: LUV|Figure 4: HSV
+
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1NDI1Mzg4LDk2NzE1MDE4MSw2MzkzNz
-gyMywtMzc3NzAyNjgsMjEzODAxMDU5OSw2MzQ0MjgzMjMsLTE2
-OTI2Mjc1NzEsLTExODIyMjE3NTksLTEyMTcxMDYwNjAsLTgyNz
-AyMTQwMCwxMjE4OTY5OTE4LC04MzM1Nzc1NjcsLTM5ODk3MjMz
-MV19
+eyJoaXN0b3J5IjpbMTE1OTExOTc1Miw4MDU0MjUzODgsOTY3MT
+UwMTgxLDYzOTM3ODIzLC0zNzc3MDI2OCwyMTM4MDEwNTk5LDYz
+NDQyODMyMywtMTY5MjYyNzU3MSwtMTE4MjIyMTc1OSwtMTIxNz
+EwNjA2MCwtODI3MDIxNDAwLDEyMTg5Njk5MTgsLTgzMzU3NzU2
+NywtMzk4OTcyMzMxXX0=
 -->
