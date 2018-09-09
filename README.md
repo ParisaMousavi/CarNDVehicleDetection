@@ -33,7 +33,7 @@ The main function which is used to extract the image HOG is hog function as in t
 
 - Under “Extract Dataset's features” cell: via calling extract_features function from training materials. 
 
-```javascript
+```python
 car_features = extract_features(cars, cspace = color_space,
 spatial_size = spatial_size,
 hist_bins = hist_bins,
@@ -45,12 +45,14 @@ hist_bins = hist_bins,
 hist_range = hist_range)
 ```
 - Under “Function for processing each frame” cell: via calling find_cars function.
-- 
+```python
+predicated_windows = find_cars(image, ystart, ystop, scale, svc, X_scaler, orient, pix_per_cell, cell_per_block, spatial_size, hist_bins)
+```
 
 [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjE3MDUxNSwtMTY5MjYyNzU3MSwtMT
-E4MjIyMTc1OSwtMTIxNzEwNjA2MCwtODI3MDIxNDAwLDEyMTg5
-Njk5MTgsLTgzMzU3NzU2NywtMzk4OTcyMzMxXX0=
+eyJoaXN0b3J5IjpbLTU3OTE0NzMxLC0xNjkyNjI3NTcxLC0xMT
+gyMjIxNzU5LC0xMjE3MTA2MDYwLC04MjcwMjE0MDAsMTIxODk2
+OTkxOCwtODMzNTc3NTY3LC0zOTg5NzIzMzFdfQ==
 -->
