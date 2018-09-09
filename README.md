@@ -64,11 +64,13 @@ I have tested the “Extracting the Histogram of Oriented Gradient (scikit-image
 ![orient=9, pix_per_cell=2, cell_per_block=2](https://github.com/ParisaMousavi/CarNDVehicleDetection/blob/master/pics/figure2.png)
 *orient=9, pix_per_cell=2, cell_per_block=2*
 
+For example, this figure at the left side is a sample of pixel per cell 2 and cell per block 2.
+
 [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjgzMTY4NDEsLTM3NzcwMjY4LDIxMz
-gwMTA1OTksNjM0NDI4MzIzLC0xNjkyNjI3NTcxLC0xMTgyMjIx
-NzU5LC0xMjE3MTA2MDYwLC04MjcwMjE0MDAsMTIxODk2OTkxOC
-wtODMzNTc3NTY3LC0zOTg5NzIzMzFdfQ==
+eyJoaXN0b3J5IjpbLTkzNjA3Mzg3OCwtMzc3NzAyNjgsMjEzOD
+AxMDU5OSw2MzQ0MjgzMjMsLTE2OTI2Mjc1NzEsLTExODIyMjE3
+NTksLTEyMTcxMDYwNjAsLTgyNzAyMTQwMCwxMjE4OTY5OTE4LC
+04MzM1Nzc1NjcsLTM5ODk3MjMzMV19
 -->
