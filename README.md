@@ -178,19 +178,18 @@ obj = {
 "hog_feat": hog_feat,
 "hist_range":hist_range
 }
+pickle.dump(obj, open('svc_pickle.p', 'wb'))
 ```
 
-
-pickle.dump(obj, open('svc_pickle.p', 'wb'))
 
 And in “Read model” cell there is a logic for reading/reloading the saved variables and model.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzA3Nzg0OCwxNDc0MjUwMTgzLC02ND
-YyNjMzNDMsNDk3NTY2OTg3LDgwNTQyNTM4OCw5NjcxNTAxODEs
-NjM5Mzc4MjMsLTM3NzcwMjY4LDIxMzgwMTA1OTksNjM0NDI4Mz
-IzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MTA2MDYw
-LC04MjcwMjE0MDAsMTIxODk2OTkxOCwtODMzNTc3NTY3LC0zOT
-g5NzIzMzFdfQ==
+eyJoaXN0b3J5IjpbLTEwMzgxNjE0MDgsMTQ3NDI1MDE4MywtNj
+Q2MjYzMzQzLDQ5NzU2Njk4Nyw4MDU0MjUzODgsOTY3MTUwMTgx
+LDYzOTM3ODIzLC0zNzc3MDI2OCwyMTM4MDEwNTk5LDYzNDQyOD
+MyMywtMTY5MjYyNzU3MSwtMTE4MjIyMTc1OSwtMTIxNzEwNjA2
+MCwtODI3MDIxNDAwLDEyMTg5Njk5MTgsLTgzMzU3NzU2NywtMz
+k4OTcyMzMxXX0=
 -->
