@@ -25,13 +25,15 @@ The name of python file is `features.py` and it is imported in Jupyter notebook.
 **Histogram of Oriented Gradient**
 I have a function for extracting the Histogram of Oriented Gradient with the following header, which has been called in “Extracting the Histogram of Oriented Gradient (scikit-image HOG)” cell.
 `def get_hog_features(myimg, orient, pix_per_cell, cell_per_block,vis=False, feature_vec=True):`
+
 The next figure is the visualization of the output of the `get_hog_features` function.
+![Vidualization of the get_hog_features function](https://github.com/ParisaMousavi/CarNDVehicleDetection/blob/master/pics/figure1.png)
 
 
 [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODIyMjE3NTksLTEyMTcxMDYwNjAsLT
-gyNzAyMTQwMCwxMjE4OTY5OTE4LC04MzM1Nzc1NjcsLTM5ODk3
-MjMzMV19
+eyJoaXN0b3J5IjpbLTE2OTI2Mjc1NzEsLTExODIyMjE3NTksLT
+EyMTcxMDYwNjAsLTgyNzAyMTQwMCwxMjE4OTY5OTE4LC04MzM1
+Nzc1NjcsLTM5ODk3MjMzMV19
 -->
