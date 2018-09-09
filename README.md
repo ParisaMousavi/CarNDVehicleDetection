@@ -56,13 +56,13 @@ Variable name | Value | Description
 ------------ | ------------- | -------------
 spatial_feat | True or False | True means spatial feature is considered in feature of image for training and vehicle detection. False means this feature must not be considered in both parts.
 hist_feat | True or False | True means Histogram of Color is considered in feature of image for training and vehicle detection. False means this feature must not be considered in both parts.
-
+hog_feat | True or False | True means Histogram of Oriented Gradient is considered in feature of image for training and vehicle detection. False means this feature must not be considered in both parts.
 
 
 [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTg1NTg3Myw2MzQ0MjgzMjMsLTE2OT
+eyJoaXN0b3J5IjpbLTczNzI0NjQyNSw2MzQ0MjgzMjMsLTE2OT
 I2Mjc1NzEsLTExODIyMjE3NTksLTEyMTcxMDYwNjAsLTgyNzAy
 MTQwMCwxMjE4OTY5OTE4LC04MzM1Nzc1NjcsLTM5ODk3MjMzMV
 19
