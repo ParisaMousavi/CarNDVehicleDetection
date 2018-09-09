@@ -215,19 +215,19 @@ In “Read model” cell I have considered 7 different scales. Because vehicles 
 
 In brief and short description of the pipeline. At first, we don’t know the scale with which we should process the image, but we can guess min scale can be 1.0 and max scale can be 2.0.
 
-|  |  |
-|--|--|
-|  |  |
+| ![Orginal image of the camera in the middle](https://github.com/ParisaMousavi/CarNDVehicleDetection/blob/master/pics/figure9.png) |  
+|--|
+|  Orginal image of the camera in the middle|
 
 
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyODY5NDIxLDE0NzQyNTAxODMsLTY0Nj
-I2MzM0Myw0OTc1NjY5ODcsODA1NDI1Mzg4LDk2NzE1MDE4MSw2
-MzkzNzgyMywtMzc3NzAyNjgsMjEzODAxMDU5OSw2MzQ0MjgzMj
-MsLTE2OTI2Mjc1NzEsLTExODIyMjE3NTksLTEyMTcxMDYwNjAs
-LTgyNzAyMTQwMCwxMjE4OTY5OTE4LC04MzM1Nzc1NjcsLTM5OD
-k3MjMzMV19
+eyJoaXN0b3J5IjpbMTk4NDkwNjEzMSwxNDc0MjUwMTgzLC02ND
+YyNjMzNDMsNDk3NTY2OTg3LDgwNTQyNTM4OCw5NjcxNTAxODEs
+NjM5Mzc4MjMsLTM3NzcwMjY4LDIxMzgwMTA1OTksNjM0NDI4Mz
+IzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MTA2MDYw
+LC04MjcwMjE0MDAsMTIxODk2OTkxOCwtODMzNTc3NTY3LC0zOT
+g5NzIzMzFdfQ==
 -->
