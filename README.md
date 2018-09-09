@@ -209,10 +209,15 @@ The sliding window mechanism, which I have used is from training materials.
 
 In “Read model” cell I have considered 7 different scales. Because vehicles in different distances have different scales.
 
+## Show some examples of test images to demonstrate how your pipeline is working. How did you optimize the performance of your classifier?
+
+> Some discussion is given around how you improved the reliability of the classifier i.e., fewer false positives and more reliable car detections (this could be things like choice of feature vector, thresholding the decision function, hard negative mining etc.)
+
+In brief and short description of the pipeline. At first, we don’t know the scale with which we should process the image, but we can guess min scale can be 1.0 and max scale can be 2.0.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjI2NzczNiwxNDc0MjUwMTgzLC02ND
+eyJoaXN0b3J5IjpbLTIxNzIxMzExNSwxNDc0MjUwMTgzLC02ND
 YyNjMzNDMsNDk3NTY2OTg3LDgwNTQyNTM4OCw5NjcxNTAxODEs
 NjM5Mzc4MjMsLTM3NzcwMjY4LDIxMzgwMTA1OTksNjM0NDI4Mz
 IzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MTA2MDYw
