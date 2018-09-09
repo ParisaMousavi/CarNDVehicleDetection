@@ -86,11 +86,20 @@ Figure 7: YUV | Figure 8: YCrCb
 
 But I have decided to use `YCrCb` color space.
 
+<![endif]-->
+
+## Describe how (and identify where in your code) you trained a classifier using your selected HOG features (and color features if you used them).
+
+
+
+
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3NTY2OTg3LDgwNTQyNTM4OCw5NjcxNT
-AxODEsNjM5Mzc4MjMsLTM3NzcwMjY4LDIxMzgwMTA1OTksNjM0
-NDI4MzIzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MT
-A2MDYwLC04MjcwMjE0MDAsMTIxODk2OTkxOCwtODMzNTc3NTY3
-LC0zOTg5NzIzMzFdfQ==
+eyJoaXN0b3J5IjpbLTY0NjI2MzM0Myw0OTc1NjY5ODcsODA1ND
+I1Mzg4LDk2NzE1MDE4MSw2MzkzNzgyMywtMzc3NzAyNjgsMjEz
+ODAxMDU5OSw2MzQ0MjgzMjMsLTE2OTI2Mjc1NzEsLTExODIyMj
+E3NTksLTEyMTcxMDYwNjAsLTgyNzAyMTQwMCwxMjE4OTY5OTE4
+LC04MzM1Nzc1NjcsLTM5ODk3MjMzMV19
 -->
