@@ -82,13 +82,13 @@ Figure 5: LUV | Figure 6: HLS
 
 ![enter image description here](https://github.com/ParisaMousavi/CarNDVehicleDetection/blob/master/pics/figure7.png)|![enter image description here](https://github.com/ParisaMousavi/CarNDVehicleDetection/blob/master/pics/figure8.png)
 ------------|------------
-Figure 5: LUV | Figure 6: HLS
+Figure 7: YUV | Figure 8: YCrCb
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjI3MTU1MzIsODA1NDI1Mzg4LDk2Nz
-E1MDE4MSw2MzkzNzgyMywtMzc3NzAyNjgsMjEzODAxMDU5OSw2
-MzQ0MjgzMjMsLTE2OTI2Mjc1NzEsLTExODIyMjE3NTksLTEyMT
-cxMDYwNjAsLTgyNzAyMTQwMCwxMjE4OTY5OTE4LC04MzM1Nzc1
-NjcsLTM5ODk3MjMzMV19
+eyJoaXN0b3J5IjpbNTUzMjI3NTcxLDgwNTQyNTM4OCw5NjcxNT
+AxODEsNjM5Mzc4MjMsLTM3NzcwMjY4LDIxMzgwMTA1OTksNjM0
+NDI4MzIzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MT
+A2MDYwLC04MjcwMjE0MDAsMTIxODk2OTkxOCwtODMzNTc3NTY3
+LC0zOTg5NzIzMzFdfQ==
 -->
