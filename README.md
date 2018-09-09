@@ -219,12 +219,12 @@ In brief and short description of the pipeline. At first, we don’t know the sc
 |--|
 |  Orginal image of the camera in the middle|
 
-
+The next figure left is heat variable before applying threshold and right is after applying threshold. We can see the small fleck is removed after using threshold.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDkwNjEzMSwxNDc0MjUwMTgzLC02ND
+eyJoaXN0b3J5IjpbLTk2MDc3NjA3OSwxNDc0MjUwMTgzLC02ND
 YyNjMzNDMsNDk3NTY2OTg3LDgwNTQyNTM4OCw5NjcxNTAxODEs
 NjM5Mzc4MjMsLTM3NzcwMjY4LDIxMzgwMTA1OTksNjM0NDI4Mz
 IzLC0xNjkyNjI3NTcxLC0xMTgyMjIxNzU5LC0xMjE3MTA2MDYw
