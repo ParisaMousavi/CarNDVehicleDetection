@@ -130,13 +130,10 @@ After preparing the vehicle and non-vehicle lists, I extract the feature/s of th
 ```python
     # Scale the feature vectors
     X = np.vstack((car_features, notcar_features)).astype(np.float64)      
-    
     # Define the labels vector
     y = np.hstack((np.ones(len(car_features)), np.zeros(len(notcar_features))))
-    
     # Fit a per-column scaler
     X_scaler = StandardScaler().fit(X)
-    
     # Apply the scaler to X
     scaled_X = X_scaler.transform(X)
    ```
@@ -145,9 +142,9 @@ After preparing the vehicle and non-vehicle lists, I extract the feature/s of th
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AbUpO2lEOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM5NTY1ODEsLTY0NjI2MzM0Myw0OT
-c1NjY5ODcsODA1NDI1Mzg4LDk2NzE1MDE4MSw2MzkzNzgyMywt
-Mzc3NzAyNjgsMjEzODAxMDU5OSw2MzQ0MjgzMjMsLTE2OTI2Mj
-c1NzEsLTExODIyMjE3NTksLTEyMTcxMDYwNjAsLTgyNzAyMTQw
-MCwxMjE4OTY5OTE4LC04MzM1Nzc1NjcsLTM5ODk3MjMzMV19
+eyJoaXN0b3J5IjpbMTk5MDkyMzMzNywtNjQ2MjYzMzQzLDQ5Nz
+U2Njk4Nyw4MDU0MjUzODgsOTY3MTUwMTgxLDYzOTM3ODIzLC0z
+Nzc3MDI2OCwyMTM4MDEwNTk5LDYzNDQyODMyMywtMTY5MjYyNz
+U3MSwtMTE4MjIyMTc1OSwtMTIxNzEwNjA2MCwtODI3MDIxNDAw
+LDEyMTg5Njk5MTgsLTgzMzU3NzU2NywtMzk4OTcyMzMxXX0=
 -->
